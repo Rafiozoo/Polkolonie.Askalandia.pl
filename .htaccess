@@ -1,0 +1,14 @@
+
+#Redirect all 404 Errors to index
+ErrorDocument 404 http://polkolonie.askalandia.pl
+
+## CACHE-CONTROL ##
+# One year for image files
+<filesMatch ".(jpg|jpeg|png|gif|ico|svg)$">
+Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+# One week for css and js
+<filesMatch ".(css|js)$">
+Header set Cache-Control "max-age=604800, public"
+</filesMatch>
+## CACHE-CONTROL ##
