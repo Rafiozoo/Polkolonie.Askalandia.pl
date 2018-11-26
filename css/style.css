@@ -1,6 +1,6 @@
 /* by Rafal Grzejszczyk 
 www.anamaja.pl
-2018-11-09
+2018-11-24
 */
 html, body {
   height: 100%;
@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
   }
   #galeria .collapsible-content, #more-images + .lbl-toggle {
-    display: none;
+    /* display: none; */
   }
 }
 @media screen and (-ms-high-contrast: active) and (orientation: landscape), (-ms-high-contrast: none) and (orientation: landscape) {
