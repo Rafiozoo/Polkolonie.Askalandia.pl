@@ -18,7 +18,7 @@ body {
 }
 @media (max-width:768px) {
   body {
-    background: aqua url("../images/background_blue_1.jpg") no-repeat center fixed;
+    background: aqua url("https://res.cloudinary.com/rafiozoo/image/upload/v1544910096/askalandia/background_blue_1.jpg") no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
   }
